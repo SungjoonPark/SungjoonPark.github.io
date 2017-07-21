@@ -1,0 +1,14 @@
+
+.profile-image {
+  width: 280px;
+  height: auto;
+}
+
+.link-in-list {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.sparse-list li {
+  padding-bottom: 8px;
+}
