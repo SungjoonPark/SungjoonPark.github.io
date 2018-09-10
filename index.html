@@ -10,13 +10,13 @@
   <link href="./css/github-light.css" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet">
 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105343996-2"></script>
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-105343996-1', 'auto');
-  ga('send', 'pageview');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-105343996-2');
+    gtag('set', {'user_id': 'USER_ID'});
   </script>
 
 </head>
@@ -40,7 +40,7 @@
       <p>
         My research interests are in exploring latent characteristic of people based on machine learning models.
         In particular, I study developing deep neural network models for computational psychotherapy.
-        Currently, I collaborate with <a href="https://trost.co.kr/">Trost</a>, in order to develop a conversational AI agents for psychotherapy which help clients describe their problems more throughly, as well as counselors conduct sessions effeciently.
+        Currently, I collaborate with <a href="https://trost.co.kr/">Trost</a>, in order to develop conversational AI agents for psychotherapy which help clients describe their problems more throughly, as well as counselors conduct sessions effeciently.
       </p>
 
       <h3>Education</h3>
@@ -61,6 +61,11 @@
       <h3>Publications</h3>
 
       <ol class="sparse-list">
+
+        <li>
+          Seonwoo, Y., <b>Park, S.</b>, Oh, A. (2018) <b>Hierarchical Dirichlet Gaussian Marked Hawkes Processfor Narrative Reconstruction in Continuous Time Domain</b> To appear in Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018) <br />
+        </li>
+
         <li>
           <b>Park, S.</b>, Byun, J., Baek, S., Cho, Y., Oh, A. (2018) <b>Subword-level Word Vector Representations for Korean</b> In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL 2018) <br />
           <a href="http://aclweb.org/anthology/P18-1226">PDF</a> <a href="./assets/acl2018_poster.pdf">Poster</a>  <a href="https://github.com/SungjoonPark/KoreanWordVectors">Data</a>
@@ -87,6 +92,9 @@
 
       <h3>Talks / Presentations</h3>
       <ul>
+        <li>
+          2018.9.10 Subword-level Word Vector Representations for Korean & Learning Client's Information from Counseling Conversations, Facebook AI Research, Paris.
+        </li>
         <li>
           2018.8.7 Subword-level Word Vector Representations for Korean & Learning Client's Information from Counseling Conversations, Elice Data Scientist Academy.
         </li>
